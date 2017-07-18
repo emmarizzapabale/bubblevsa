@@ -29,6 +29,6 @@ app.use("*",function(req,res){
 app.use('/static', express.static('public'));
 app.get(path + '/views/script.js');
 
-app.listen(3000,function(){
-  console.log("Live at Port 3000");
+app.listen(5000,function(){
+  console.log("Live at Port 5000");
 });
